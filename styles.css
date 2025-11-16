@@ -337,9 +337,6 @@ body {
 }
 
 @media (max-width: 480px) {
-    .page-container {
-        background: url('mobile.jpeg') center/cover no-repeat;
-    }
     
     .left-section,
     .right-section {
