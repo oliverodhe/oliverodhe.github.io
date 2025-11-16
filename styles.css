@@ -315,6 +315,16 @@ body {
     
     .social-links {
         align-items: stretch;
+        justify-content: center;
+    }
+    
+    .hero-content {
+        text-align: center;
+    }
+    
+    .resume-button {
+        display: inline-flex;
+        justify-content: center;
     }
     
     .contact-container {
@@ -327,6 +337,10 @@ body {
 }
 
 @media (max-width: 480px) {
+    .page-container {
+        background: url('mobile.jpeg') center/cover no-repeat;
+    }
+    
     .left-section,
     .right-section {
         padding: 2rem 1.5rem;
@@ -340,9 +354,18 @@ body {
         font-size: 0.95rem;
     }
     
+    .social-links {
+        justify-content: center;
+    }
+    
     .social-link {
         padding: 0.875rem 1.25rem;
         font-size: 0.9rem;
+    }
+    
+    .resume-button {
+        display: inline-flex;
+        justify-content: center;
     }
     
     .contact-container {
